@@ -29,13 +29,14 @@ body{
 }
 .tasks{
    background-color: aliceblue;
-   width: 100%;
+   width: 90%;
     height: auto;
  
 display: flex;
 flex-direction: column;
  padding: 10px 0;
 direction: rtl;
+  box-sizing:border-box;
 
 gap: 10px;
 
