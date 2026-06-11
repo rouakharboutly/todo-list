@@ -1,0 +1,121 @@
+body{
+  background: linear-gradient(135deg,rgb(171, 171, 248),rgb(131, 131, 222));
+}
+.tasks-table{
+    width: 55%;
+    background-color: aliceblue;
+    margin: 60px auto;
+    height: auto;
+    border-radius: 15px;
+}
+.d4{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    direction: rtl;
+}
+.d4 h1{
+    margin-right: 30px;
+}
+.bt-bt1{
+      margin-left: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(76, 76, 186);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.tasks{
+   background-color: aliceblue;
+   width: 100%;
+    height: auto;
+ 
+display: flex;
+flex-direction: column;
+ padding: 10px 0;
+direction: rtl;
+
+gap: 10px;
+
+
+
+}
+.task{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+  border-right: 5px solid rgb(54, 54, 139);
+      border-radius: 15px;
+  transition: transform 0.3s ease;
+  
+   overflow: hidden;
+    background-color: #f2f2f2;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-right: 10px;
+}
+
+.task.done{
+    background-color: #d4edda;
+    border-right: 5px solid green;
+
+}
+
+.bt-bt2{
+     width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ background-color: rgb(243, 96, 96);
+ color: #fff;
+ border: none;
+ cursor: pointer;
+}
+.bt-bt2:hover{
+    background-color: red;
+}
+
+.bt-bt4{
+             width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ background-color: rgb(125, 240, 125);
+ color: #fff;
+ border: none;
+ cursor: pointer;
+}
+.bt-bt4:hover{
+     background-color: rgb(84, 234, 84);
+}
+.bt-bt5{
+           width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ background-color: rgb(90, 90, 245);
+ color: #fff;
+ border: none;
+ cursor: pointer;
+ margin-left: 10px;
+}
+.bt-bt5:hover{
+      background:rgb(79, 79, 218) ;
+}
+.bt-bt3{
+           width: 40px;
+ height: 40px;
+
+ background-color: rgb(150, 150, 63);
+ color: #fff;
+ border: none;
+ cursor: pointer;
+ margin-left: 10px;
+}
+.task:active{
+    transform: scale(0.98);
+    cursor: pointer;
+}
+.task:hover{
+transform: scale(1.01);
+box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+}
